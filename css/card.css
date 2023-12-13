@@ -1,0 +1,238 @@
+.cardi {
+    margin: 0%;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.cardbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    border: 1px thin ;
+}
+.coursecard {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(217, 217, 217);
+    border-radius: 10px;
+    border: 1px solid rgb(220, 129, 50);
+}
+
+.mar{
+    margin-left: 60px;
+}
+.coursecard img {
+    width: 500px;
+    border-radius: 10px 10px 0 0;"
+}
+.coursecard h3{
+    margin-top: 10px;
+    color: rgb(238, 151, 75);
+}
+.coursecard .descrip {
+    margin: 5px 15px;
+}
+
+.pad {
+    margin-bottom: 20px;
+}
+
+.rev {
+    margin-top: -70px;
+}
+
+.coursetitlee {
+    background-color: #fde9e9; 
+    padding: 5px; 
+    margin-bottom: 20px;
+}
+
+.coursetitlee p {
+    font-size: 40px; 
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px; 
+    color: rgb(220, 129, 50);
+}
+
+.infoclass {
+    color: white; 
+    background-color: black;
+    height: 60px; margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoclass h3 {
+    margin-top: 10px;
+    font-size: 30px; 
+    color: white;
+}
+
+.infoclass h2 {
+    color: white; 
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+
+.bredh2 {
+    background-color: white; 
+    width: 500px; 
+    padding: 20px;
+}
+
+                                            /* Rensponsive */
+
+
+
+/* Max Width 400px */
+
+@media only screen and (max-width: 400px) {
+    .cardbody {
+     flex-direction: column;
+     padding-bottom: 0px;
+    }
+    .coursecard {
+     margin-bottom: 20px;
+     width: 350px;
+    }
+    .mar {
+     margin-left: 0px;
+    }
+    .rev {
+        flex-direction: column-reverse;
+    }
+    .infoclass {
+        margin-top: 150px;
+        height: 30px;
+        
+    }
+    .infoclass h3 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .infoclass h2 {
+        font-size:  8px;
+        margin: 5px 0 0 10px;
+    }
+   }
+
+
+
+
+       /* 401 to 625 */
+
+ @media only screen and (min-width: 401px) and (max-width: 625px){
+    .cardbody {
+     flex-direction: column;
+     padding-bottom: 0px;
+    }
+    .coursecard {
+     margin-bottom: 20px;
+     width: 380px;
+    }
+    .mar {
+     margin-left: 0px;
+    }
+    .rev {
+        flex-direction: column-reverse;
+    }
+    .infoclass {
+        margin-top: 150px;
+        height: 20px;
+        
+    }
+    .infoclass h3 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .infoclass h2 {
+        font-size:  8px;
+        margin: 5px 0 0 10px;
+    }
+   }
+
+
+
+                        /* 626 to 764 */
+
+@media only screen and (min-width:626px) and (max-width: 767px) {
+   .cardbody {
+    flex-direction: column;
+    padding-bottom: 0px;
+   }
+   .coursecard {
+    margin-bottom: 20px;
+   }
+   .mar {
+    margin-left: 0px;
+   }
+   .rev {
+    flex-direction: column-reverse;
+}
+.infoclass {
+    margin-top: 150px;
+    
+}
+.infoclass h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.infoclass h2 {
+    font-size:  15px;
+    margin: 5px 0 0 10px;
+}
+  }
+
+
+                        /* 768 to 991 */
+
+ 
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .rev {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+
+    .infoclass {
+        margin-top: 200px;
+        
+    }
+    .infoclass h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .infoclass h2 {
+        font-size:  15px;
+        margin: 5px 0 0 10px;
+    } 
+   }
+
+
+                    /* 992 to 1200 */
+
+   @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .rev {
+        
+        margin-top: 80px;
+    }
+
+    .infoclass {
+        margin-top: 190px;
+        
+    }
+    .infoclass h3 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .infoclass h2 {
+        font-size:  20px;
+        margin: 5px 0 0 10px;
+    }
+   }
+
